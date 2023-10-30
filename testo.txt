@@ -1,0 +1,25 @@
+**Esercizio: Gestione di un sistema di recensioni per ristoranti**
+**Descrizione**: Immagina di voler creare un sistema dove gli utenti possono recensire ristoranti e vedere le recensioni di altri utenti.
+**Caratteristiche richieste**:
+
+1. **Classi**: Dovresti avere almeno le seguenti classi: 
+   - `Ristorante`: per rappresentare un ristorante. Ogni ristorante ha un nome, un'indirizzo e una lista di recensioni.
+   - `Recensione`: per rappresentare la recensione di un ristorante. Una recensione ha un punteggio (da 1 a 5), un testo descrittivo e l'utente che l'ha scritta.
+   - `Utente`: per rappresentare un utente del sistema. Ogni utente ha un nome utente, una lista di recensioni scritte e, opzionalmente, una lista di ristoranti preferiti.
+
+2. **Funzionalità**: 
+   - Un utente può scrivere una recensione per un ristorante.
+   - Un utente può vedere tutte le recensioni di un ristorante.
+   - Un utente può vedere la media dei punteggi delle recensioni di un ristorante.
+   - Un utente può aggiungere un ristorante ai suoi preferiti.
+
+3. **Esecuzione**:
+   - Crea alcune istanze di `Ristorante` e `Utente`.
+   - Simula alcune interazioni, come un utente che scrive una recensione, un altro utente che legge le recensioni, etc.
+
+**Concetti coinvolti**:
+- Classi e oggetti
+- Ereditarietà (se vuoi complicare un po' le cose, magari introducendo classi di ristoranti specializzati come "Pizzeria", "Ristorante di pesce", ecc.)
+- List (o altre strutture dati)
+- Metodi e attributi
+- Interazione tra oggetti
